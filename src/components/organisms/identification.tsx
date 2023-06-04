@@ -145,12 +145,20 @@ const Identification = (): JSX.Element => {
         initial={{ y: 20, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.7, ease: "easeOut" }}
-        className="py-12 px-0 font-extrabold md:px-2 text-sm text-center"
+        className="pt-12 px-0 font-extrabold md:px-2 text-gray-500 text-sm text-center"
       >
         This is a project created for educational purposes only. The model is
         not intended to be used in a clinical setting. <br /> It only classifies
         images into 1 of 4 categories. Glioma Tumor, Meningioma Tumor, Pituitary
         Tumor, and No Tumor.
+      </motion.div>
+      <motion.div
+        initial={{ y: 20, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.7, ease: "easeOut" }}
+        className="pt-6 font-extrabold text-xs text-center text-gray-500"
+      >
+        Made by Justin with 🥑 and many open source datasets
       </motion.div>
     </section>
   );
