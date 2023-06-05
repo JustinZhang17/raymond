@@ -156,7 +156,7 @@ const Identification = (): JSX.Element => {
         initial={{ y: 20, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.7, ease: "easeOut" }}
-        className="pt-6 font-extrabold text-xs text-center text-gray-500"
+        className="py-6 font-extrabold text-xs text-center text-gray-500"
       >
         Made by Justin with 🥑 and many open source datasets
       </motion.div>
