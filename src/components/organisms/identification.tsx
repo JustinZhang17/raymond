@@ -158,7 +158,7 @@ const Identification = (): JSX.Element => {
         transition={{ duration: 0.7, ease: "easeOut" }}
         className="py-6 font-extrabold text-xs text-center text-gray-500"
       >
-        Made by Justin with 🥑 and many open source datasets
+        Made with ♥ by Justin and many open source datasets
       </motion.div>
     </section>
   );
