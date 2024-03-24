@@ -15,7 +15,7 @@ const Header = () => {
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
           transition={{ duration: 0.1, ease: "easeOut" }}
-          href="https://blog.justinjzhang.com/raymond"
+          href="https://www.justinjzhang.com/projects/raymond"
           className="text-black hover:bg-gray-200 hover:text-sky-600 px-4 py-2 rounded-md text-lg font-bold flex mr-5"
         >
           <svg
